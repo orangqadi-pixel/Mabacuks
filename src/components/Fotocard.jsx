@@ -8,7 +8,7 @@ const Fotocard = ({ npm }) => {
 				<Image
 					src={`https://v2-students.unpad.ac.id/_next/image?url=https%3A%2F%2Fmedia.unpad.ac.id%2Fphoto%2Fmahasiswa%2F270110%2F2025%2F270110250${npm}.JPG&w=750&q=75`}
 					fill
-					className="object-fill"
+					className="object-contain"
 					alt="gambar"
 				/>
 			</div>

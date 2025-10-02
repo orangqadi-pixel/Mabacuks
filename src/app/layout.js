@@ -19,8 +19,8 @@ const lobster = Lobster({
 });
 
 export const metadata = {
-	title: "Happy Birthday beib",
-	description: "A web page to celebrate visianty birthday",
+	title: "foto-foto 25",
+	description: "A web page to celebrate birthday",
 };
 
 export default function RootLayout({ children }) {
