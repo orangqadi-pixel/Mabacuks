@@ -13,7 +13,13 @@ const Fotocard = ({ npm, angkatan }) => {
 	return (
 		<div className="w-full flex flex-col items-center justify-center">
 			<div className="p-3 flex flex-col gap-2 w-full relative h-[300px]">
-				<Image src={imagePath} fill className="object-contain" alt="gambar" />
+				<Image
+					src={imagePath}
+					fill
+					className="object-contain"
+					alt="gambar"
+					onError={() => setImgError(true)}
+				/>
 			</div>
 			<h1 className="text-md font-bold py-2">{npm}</h1>
 		</div>
