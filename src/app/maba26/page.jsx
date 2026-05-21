@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
 	let listNomor = [];
-	for (let i = 1; i < 200; i++) {
+	for (let i = 1; i < 100; i++) {
 		listNomor.push(String(i).padStart(3, "0"));
 	}
 
@@ -13,7 +13,7 @@ const page = () => {
 			<h2>Hallo ini list maba ftg25</h2>
 			<div className="grid grid-cols-2 md:grid-cols-5 gap-2 w-full">
 				{listNomor.map((n, i) => (
-					<Fotocard npm={n} angkatan={25} key={i} />
+					<Fotocard npm={n} angkatan={26} key={i} />
 				))}
 			</div>
 		</div>
